@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div id="home">
+  <div id="top-container">
+    {% include header.html page="blog" %}
+    <div id="single-post-container">
+      <div id="single-post-header-container">
+        <div id="left-arrow-container">
+          <img src="/img/arrow-left.svg" />
+        </div>
+        <div id="single-post-header">
+          <div class="post-title">{{ page.title }}</div>
+          <div class="post-date">{{ page.date | date: "%b %-d, %Y" }}</div>
+        </div>
+        <div id="right-arrow-container">
+          <img src="/img/arrow-right.svg" />
+        </div>
+      </div>
+      <div id="single-post-content">
+        {{ content }}
+        <div id="tag-container">
+          {% for tag in page.tags %}
+          <div class="tag">{{ tag }}</div>
+          {% endfor %}
+        </div>
+        {% include disqus.html %}
+      </div>
+    </div>
+  </div>
+</div>

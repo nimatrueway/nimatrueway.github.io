@@ -1,0 +1,32 @@
+{% if include.page == "resume" %}
+<div id="long-line"></div>
+{% endif %}
+
+<div id="header-and-img-container">
+  <img id="profile-img" src="/img/nima.png" />
+  <div id="header-container">
+    <div id="header-above-line">
+      <div id="name-and-title-container">
+        <span id="page-owner-name">{{site.name}}</span><br/>
+        <span id="page-owner-title">{{site.title}}</span>
+      </div>
+      <div id="social-links-container">
+        <ul>
+          <li><a href="https://t.me/{{site.telegram_username}}"><img src="/img/social-telegram.svg" /></a></li>
+          <li><a href="https://github.com/{{ site.github_username }}"><img src="/img/social-github.svg" /></a></li>
+          <li><a href="https://linkedin.com/in/{{site.linkedin_username}}"><img src="/img/social-linked-in.svg" /></a></li>
+          <li><a href="https://twitter.com/{{site.twitter_username}}"><img src="/img/social-twitter.svg" /></a></li>
+          <li><a href="mailto:{{site.gmail_username}}@gmail.com"><img src="/img/social-gmail.svg" /></a></li>
+        </ul>
+      </div>
+    </div>
+    <ul id="header-below-line">
+      {% if include.page == "resume" %} <li class="selected"> {% else %} <li> {% endif %}
+        <a href="/">Home</a>
+      </li>
+      {% if include.page == "blog" %} <li class="selected"> {% else %} <li> {% endif %}
+        <a href="/blog/">Blog</a>
+      </li>
+    </ul>
+  </div>
+</div>

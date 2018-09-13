@@ -1,0 +1,226 @@
+@import "globs";
+@import "colors";
+@import "prefs";
+
+// ---------- nima utils
+
+@mixin noselect {
+  user-select: none;
+}
+
+// gives the chance to use "height: 100%" in elements that have "absolute" position.
+@mixin setAbsoluteHeightAs100 {
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+}
+
+@mixin setDefaultBoxSizing {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+  }
+}
+
+@mixin standard-box-shadow {
+  box-shadow: 0 1px 30px transparentize(black, 0.85);
+}
+
+@mixin dark-box-shadow {
+  box-shadow: 0 1px 15px transparentize(black, 0.60);
+}
+
+@mixin htmlNoScroll {
+  html.noscroll {
+    @if ($home-show-splash-screen == true) {
+      position: fixed;
+      overflow-y: scroll;
+      width: 100%;
+    }
+  }
+}
+
+@mixin centered-with-transform {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: perspective(1px) translate(-50%, -50%);
+}
+
+// ----------- small screen size indicator
+
+@mixin device-indicator($show){
+  @if ($show == true) {
+    #device-indicator {
+      opacity: 0.3;
+      text-align: center;
+      font-size: 25px;
+      position: fixed;
+      left: calc(70% - 100px);
+      top: 25px;
+      width: 200px;
+      z-index: 100;
+      * {
+        display: none;
+        color: white;
+        background-color: $teska-text-aqua-lighter;
+        border: solid 3px $teska-text-aqua-light;
+        padding: 10px 0;
+      }
+      #i-xxlarge {
+        @include breakpoint(xxlarge only) {
+          display: block !important;
+        }
+      }
+      #i-xlarge {
+        @include breakpoint(xlarge only) {
+          display: block !important;
+        }
+      }
+      #i-large {
+        @include breakpoint(large only) {
+          display: block !important;
+        }
+      }
+      #i-medium {
+        @include breakpoint(medium only) {
+          display: block !important;
+        }
+      }
+      #i-small {
+        @include breakpoint(small only) {
+          display: block !important;
+        }
+      }
+    }
+  } @else {
+    #device-indicator {
+      display: none;
+    }
+  }
+}
+
+// ------ creativeDashBurger
+
+@mixin creativeDashBurger($scale) {
+  .creativedash-burger {
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: 38px * $scale;
+    height: 28px * $scale;
+    .before, .after {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      content: '';
+      margin: 0 0 0 (-15px * $scale);
+      width: 30px * $scale;
+      height: 4px * $scale;
+      background: #f8f8f8;
+      transform: translate3d(0, 0, 0);
+      transition: transform 200ms ease;
+    }
+    .middle {
+      position: absolute;
+      top: 12px * $scale;
+      left: 50%;
+      z-index: 1;
+      display: block;
+      content: '';
+      width: 30px * $scale;
+      height: 4px * $scale;
+      background: #f8f8f8;
+      transform: translateX(-50%);
+      transition: width 200ms ease, opacity 200ms ease;
+    }
+    .after {
+      transform: translate3d(0, 24px * $scale, 0);
+    }
+    .before.active {
+      transform: rotate(45deg) translate3d(8px * $scale, 8px * $scale, 0);
+    }
+    .middle.active {
+      width: 0;
+      opacity: 0;
+    }
+    .after.active {
+      transform: rotate(-45deg) translate3d(-8px * $scale, 8px * $scale, 0);
+    }
+  }
+}
+
+// ------ css loading cube
+
+@mixin loadingCube($scale) {
+  $loadingColor: $teska-white;
+
+  .cssload-thecube {
+    width: 73px * $scale;
+    height: 73px * $scale;
+    margin: 0 auto;
+    margin-top: 49px * $scale;
+    position: relative;
+    transform: rotateZ(45deg);
+  }
+  .cssload-thecube .cssload-cube {
+    position: relative;
+    transform: rotateZ(45deg);
+  }
+  .cssload-thecube .cssload-cube {
+    float: left;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    transform: scale(1.1);
+  }
+  .cssload-thecube .cssload-cube:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $loadingColor;
+    animation: cssload-fold-thecube 2.76s infinite linear both;
+    transform-origin: 100% 100%;
+  }
+  .cssload-thecube .cssload-c2 {
+    transform: scale(1.1) rotateZ(90deg);
+  }
+  .cssload-thecube .cssload-c3 {
+    transform: scale(1.1) rotateZ(180deg);
+  }
+  .cssload-thecube .cssload-c4 {
+    transform: scale(1.1) rotateZ(270deg);
+  }
+  .cssload-thecube .cssload-c2:before {
+    animation-delay: 0.35s;
+  }
+  .cssload-thecube .cssload-c3:before {
+    animation-delay: 0.69s;
+  }
+  .cssload-thecube .cssload-c4:before {
+    animation-delay: 1.04s;
+  }
+
+  @keyframes cssload-fold-thecube {
+    0%, 10% {
+      transform: perspective(136px * $scale) rotateX(-180deg);
+      opacity: 0;
+    }
+    25%,
+    75% {
+      transform: perspective(136px * $scale) rotateX(0deg);
+      opacity: 1;
+    }
+    90%,
+    100% {
+      transform: perspective(136px * $scale) rotateY(180deg);
+      opacity: 0;
+    }
+  }
+
+}

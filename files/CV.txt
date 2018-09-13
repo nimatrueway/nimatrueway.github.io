@@ -1,0 +1,292 @@
+( This is a plain text version of my homepage at nimatrueway.github.io )
+
+Nima Taheri
+Full-Stack Software Engineer
+3rd, No.22, Ferdowsi Alley, Dabestan St., Seyyedkhandan
+Tehran, Tehran, Iran
+(+98) 912 761-5948
+nima.trueway@gmail.com
+
+================================================================================
+  MOTIVATIONS                                                          
+================================================================================
+
+Complexity to some levels is necessary, as it gives space to innovation and an opportunity for a new world to emerge. It could be a poetic way of saying things, a piece of code that looks strange, etc.
+Life is absurd, if you can not be passionate about something that contributes to the world. And passion is wonderfully contagious, I immensely enjoyed working with passionate people throughout my life and decided to ONLY work with such people.
+
+================================================================================
+  EDUCATION                                                          
+================================================================================
+
+- Master of Software Engineering
+- Sharif University of Technology
+- 2013 – 2015
+  Thesis: Towards more evolvability for software product lines
+  I extended C language to support delta-oriented programming which resulted in a language with better evolvability for development of Linux kernel.
+
+- Bachelor of Computer Science
+- University of Tabriz
+- 2009 – 2012
+  Representative Of Tabriz University in ACM National Programming Contest (Ranked 23th/70)
+  Ranked 1st in Every Semester 
+
+================================================================================
+  EXPERIENCE                                                          
+================================================================================
+
+
+- Full-Stack Software Engineer
+- Freelancer
+- November 2016 – Present
+  Ready for doing projects in either of these fields:
+  [Server: Administration]
+  CentOS, Ubuntu
+  [Backend: Analysis, Design and Development]
+  Scala, Java 8, Php 7, PostgreSQL, MySQL, MongoDB
+  [Frontend: Desktop Development]
+  Qt
+  [System Applications]
+  Cpp17, Golang
+  [Automation Scripts and Apps]
+  Python (linux-server),
+  AutoHotkey (win), Keyboard Maestro (mac),
+  AutoKey / PyAutogui / PyTesseract (linux-desktop)
+  [Frontend: Web Development]
+  Webpack, Html, Sass, BEM, React, Redux
+  [Frontend: Mobile Development]
+  Swift3, Kotlin
+  [Frontend: Hybrid Mobile Development]
+  Flutter, React-Native, Cordova
+  [Reverse Engineer]
+  X86-Asm, X64-Asm, JVM-Bytecode
+
+- Scala Tutor & Java/Android Problem Solver
+- Iran Internet Group
+- August 2016 – March 2017 (~ 8 months)
+  Worked in two subsidiaries of IranIG Snapptrip, Hitt.  
+  [DevOps Engineer (Hitt)]
+  Ubuntu, Nginx
+  [Software Auditor and Problem Solver (Hitt)]
+  Conveyed requirements to Hitt's development team in India, track project's progress, assissted in Design of the system, and also intervened and solved problems emerged in server/backend-app/mobile-app.
+  [Backend Advisor / Tutor (Snapptrip)]
+  Created 8 hours of tutorial for Scala Backend Development (are available for public use) and held workshops for technical team.
+
+- Senior Frontend Developer & DevOps Assistant
+- Tasvir Gostar Pasargad
+- April 2017 – November 2017 (8 months)
+  Re-engineered and re-implemented lotusplay website and hybrid mobile application according to new designs and requirements. 
+  [Frontend: Web Development]
+  Html, Sass, Bootsrap, jQuery, Grunt
+  [Frontend: Hybrid Mobile Developer]
+  Apache Cordova
+
+- Java Backend Architect & Mobile/Web Developer Assistant
+- Poolam
+- April 2016 – March 2017 (~ 1 year)
+  I was hired as the initial member of the technical team for a startup. I discussed requirements with the product manager and built architecture of the system that would serve the mobile application. I also assisted Android developer and partially developed iOS Mobile application of the project using Swift3. 
+  In my spare time I developed the sponsor company's website (Teska). 
+  [Server, Database: Administration]
+  CentOS, Supervisord, HAProxy, SELinux, Oracle 12.1c, MongoDB
+  [Backend: Analysis, Design and Development]
+  Java, Spring, JOOQ, JavaSlang, Flyway, Swagger
+  [Frontend: Mobile Development Assistant]
+  Swift3, Java-Android
+  [Frontend: Web Development]
+  Html, Sass, Foundation, Typescript, jQuery, Gulp
+  [Reverse Engineer]
+  X64-Asm, JVM-Bytecode
+
+- Scala Backend Developer & DevOps Assistant
+- ModernPal
+- April 2016 – November 2016 (8 months)
+  Worked in two subsidiaries of IranIG Snapptrip, Hitt.
+  [DevOps Engineer (Hitt)]
+  Ubuntu, Nginx
+  [Software Auditor and Problem Solver (Hitt)]
+  Conveyed requirements to Hitt's development team in India, track project's progress, assissted in Design of the system, and also intervened and solved problems emerged in server/backend-app/mobile-app.
+  [Backend Tutor (Snapptrip)]
+  Created 8 hours of tutorial for Scala Backend Development (are available for public use) and held workshops for technical team.
+
+- Java Backend Developer & Android Developer Assistant
+- Noavaran Saramad Sharif
+- January 2016 – March 2016 (3 months)
+  I was hired to evolve an acquired android application, add new requirements pointed out by the product manager. I designed and developed a backend for it plus assisted and managed frontend/mobile developers to deliver the final product.
+  [Server: Administration]
+  Ubuntu, Supervisord, Gitlab
+  [Backend: Analysis, Design and Development]
+  Java, Spring, MySQL
+  [Frontend Assistant: Web/Android Development]
+  Android, jQuery
+
+- Java Backend Developer & Android Developer Assistant
+- Intelligent Information Solutions Center at Sharif University
+- January 2015 – December 2015 (1 year)
+  As network module developer I designed and developed a micro-service (with RESET API) for communicating with network devices (capable of both monitoring and configuration). Main purpose of the module was to automate the establishment and maintenance of MPLS VPNs. 
+  [Backend: Core Network Development]
+  Java, Snmp4J, SSHD, JUnit, Mockito, Powermock, ExpectIt, GNS3, Wireshark, Mininet.
+
+- Java Developer (Internship)
+- Avan Software Technology Advisors (ASTA)
+- June 2014 – August 2015 (3 months)
+  I worked on improving and adding new features to company's portal product-line which was used to build product for several state organizations. 
+  [Backend: Product-Line Design and Development]
+  Java, Spring-MVC, Hibernate, GWT
+
+- Delphi Desktop Developer & Php Web Developer
+- Danger Gamenet
+- March 2006 – February 2008 (2 years)
+  I designed and developed a customized managing software for this game-net using Delphi, similar to famous software GamePort. After a year that good words spread around it we distributed it to several other game-nets. I also developed several websites for clients. 
+  [Desktop: Windows Application Developer]
+  Windows XP, Delphi, TCP/IP
+  [Junior Web Developer]
+  Php, Html, Css
+
+
+================================================================================
+  PUBLICATIONS AND TECHNICAL TALKS
+================================================================================
+
+- SDxVPN: A Software-Defined Solution for VPN Service Providers [http://ieeexplore.ieee.org/document/7502811/]
+- IEEE/IFIP Network Operations and Management Symposium
+- Academic Paper
+- April 2016
+  A SDN-based VPN solution called SDxVPN which considerably lowers the complexity of management, lowers cost both in terms of management and network device, and better flexibility for controlling connections.
+
+- Advanced Concepts in Scala - Running things before runtime [https://www.linkedin.com/pulse/tech-talk-advanced-concepts-scala-nima-taheri]
+- 229th Meeting of Tehran GNU/Linux Group
+- Technical Talk
+- Jan 2017
+  Covered topics were scala compiler overview, scala compiler plugins, blackbox, whitebox and annotation macros, exploring Scala.meta
+
+- Scala Quick Guide [https://www.youtube.com/playlist?list=PLWurvNkeUyp4HUocRQ8XTRQ61L0gZm5WT]
+- Snapptrip
+- Video Tutorial
+- Jul 2017
+  Video series covering most concepts, methods and popular frameworks of Scala language (Level: intermediate to advanced)
+
+================================================================================
+  RECOMMENDATIONS
+================================================================================
+
+- Amir Karimi [https://www.linkedin.com/in/amirkarimi/]
+- Software Engineer at Walt Disney Streaming Services
+- Amir directly managed Nima at ModernPal
+  When I interviewed Nima on March 2016, he had not developed a single line of Scala code; Now he is one of the few professional Scala developers in Iran that I know of. Nima is an independent, smart, result-oriented young man who has a knack for solving difficult puzzles. In terms of personality, he has a great sense of humor.
+
+- Behzad Mirkhanzadeh [https://www.linkedin.com/in/bmirkhanzadeh/]
+- Research Assistant at University of Texas at Dallas
+- Behzad was Nima's co-worker at Intelligent Information Solutions Center
+  I worked with Nima in the OSS project of Telecommunication Infrastructure Of Iran, Meanwhile we accomplished an extensive research work and published it in IEEE/IFIP NOMS 2016 Conference. He is one of the best and most skillful software developers I have ever seen. He implemented and designed the core module of the OSS which was very complex and challenging. His intelligence and hardworking attitude as well as great teamwork abilities make him an ideal software engineer, especially in stressful volatile environments. A company would be lucky to have him!
+
+- Ali Sarshad [https://www.linkedin.com/in/ali-sarshad-2b4301a]
+- Project Manager and UI/UX Designer
+- Ali directly managed Nima at Tasvir Gostar Pasargad
+  We met Nima, when we were in a severe time constraint and in need of a developer who is able to re-engineer our website and mobile application. Nima is a professional and experienced software developer, who does his job with extreme care and patience. A person who can be counted on in tough circumstances.
+
+- Mahdi Azadbar [https://www.linkedin.com/in/mahdi-azadbar-a71b9710b/]
+- Android Developer
+- Mahdi was Nima's co-worker at Teska
+  Every time I think of a creative, talented and skillful developer, the first person that comes to my mind is Nima. He has a sharp vision in solving problems and sound knowledge in software development which enables him to learn and handle any new platform or language. Besides, Nima is very agreeable, has major commitment to his work and assists his colleagues by all means.
+
+- Mehdi Ebadi [https://www.linkedin.com/in/mehdi-ebadi-4320279/]
+- Fintech Product Manager
+- Mehdi directly managed Nima at Teska
+  We always discuss and have debate over technologies and he is a big fan of the cutting-edge technologies. Nima learns very fast, Not just fast but deep. Meticulousness is another good trait of him, When there is a problem he inspects all dimensions of the problem to come up with a reliable solution. Nima is smart, accurate and open-minded in software development, which is in fact the most important skill. Concerning his personality, I should say, he is kind, calm and introverted yet he has two big wings to fly. He is also open minded in life and is always ready to think twice about his choices.
+
+================================================================================
+  PROJECTS
+================================================================================
+
+- Hitt News
+- Iran Internet Group
+- Apr 2016
+
+  Hitt extracts important, credible news from various sources, summerizes in less than 60 words and delivers to every user based on their interests.
+
+- LotusPlay
+- Tasvir Gostar Pasargad
+- Apr 2016
+  
+  The online media streaming and video-on-demand service of Tasvir Gostar Pasargad company which is the distributor of many Iranian movies and TV series. Restyled LotusPlay website, made it responsive to mobile and tablet size, added appropriate animations to it and gave it a professional look overall. Also re-engineered its legacy cordova mobile application.
+
+- HealthyPal
+- ModernPal
+- Apr 2016
+
+  Healthypal is an application implemented on mobile and web platforms for health experts to have a closer and more efficient relation with their customers. Through Healthypal, doctors and sports-trainers are able to give consultation, send out care/workout/nutrition programs, monitor patients for after-care measures, supervise trainees workouts, etc. at the moment.
+
+- Poolam
+- Poolam
+- Mar 2016
+  
+  Poolam is an expense management application for mobile devices. Customer signs a contract with his bank to receive Poolam e-receipt instead of plain text SMS whenever he did a transaction. Poolam then provides user with intelligent financial advices, useful statistics besides a nice view of transactions.
+
+- Negar
+- Noavaran Saramad Sharif
+- Jan 2016
+  
+  A small but handy android application that provides user with postcards for different occasions or applications. Negar is backed by a java application server to upload, administer and synchronize media categories and catalogs with mobile app by content team.
+
+- National Operational Support System
+- Intelligent Information Solutions Center at Sharif University
+- Feb 2014
+
+  In this project we developed an operational support system (OSS) for Iran's Telecommunication Infrastructure company to manage their network devices and services. In particular we focused on Provisioning MPLS VPN and VPLS services through OSS system and monitor the status and the quality of these services. We designed two libraries throughout this projects: (1) Java-Reflection Based Framework for Batch Snmp Query. (2) XML Based Multi-Vendor Engine for Configuration of Network Devices
+
+- NPort, A GameNet Management Solution
+- FreeLancer
+- Sep 2006
+
+  NPort was a fully-featured gamenet management solution used in several gamenets in Tehran. NPort had a client-server architecture, and was implemented using Borland Delphi and Tcp Socket.
+ 
+================================================================================
+  HONORS AND AWARDS
+================================================================================
+
+- Ranked 24th in Nationwide Entrance Exam for Graduate Studies
+- National Organization for Educational Testing
+- May 2013
+
+- Granted Admission for Master's Degree of Science in Informatics
+- Université Joseph Fourier, Grenoble (MOSIG), France
+- May 2013
+  ( For personal reasons I preferred Sharif University over it. )
+
+- Ranked 1st in Department of Computer Science
+- University of Tabriz
+- 2013
+  
+- Ranked 1st
+- Alborz High School
+- 2004
+
+================================================================================
+  SKILLS
+================================================================================
+
+- Programming and Scripting Language
+  (85%) Scala (Play), Java (Spring)
+  (60%) Python, Cpp17, Javascript (React, React-Native), Bash
+  (35%) Android Kotlin, Swift3, Go, Php7
+
+- Markup Language
+  (85%) Html, Css3, Sass (BEM)
+  (40%) LaTeX, Jekyll
+
+- OS Administration
+  (70%) Linux (Ubuntu, CentOS)
+  (70%) Windows, macOS
+
+- Database
+  (70%) PostgreSQL, MySQL
+  (40%) Oracle, MongoDB
+
+- Foreign Language
+  (70%) English ( Academic IELTS 2013 )
+
+================================================================================
+  CONTACT
+================================================================================
+
+  nima.trueway@gmail.com
+  + 98 912 761 59 48 (Skype) (Whatsapp) (Telegram)

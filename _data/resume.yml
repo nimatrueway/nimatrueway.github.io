@@ -1,0 +1,274 @@
+summary: |
+  Complexity is what fascinates <b>specialists</b>, but <b>simplicity</b> is what gets the job actually done.
+
+  Throughout my career I realized regardless of your role, or the language you use; you are still able to create an engineering masterpiece by carefully paying attention to your working <b>ecosystem</b>, using (or sometimes creating) the <b>right tool</b>, and come up with the <b>best combination</b>.
+
+  Life is absurd, if you can not be <b>passionate</b> about something that contributes to the world. Passion is wonderfully contagious, I immensely enjoyed working with passionate people throughout my life and decided to <b>only</b> work with such people.
+
+education:
+  - title: Master of Software Engineering
+    institute: Sharif University of Technology
+    date: 2013 – 2015
+    img: sharifu.png
+    description: "<b>Thesis:</b> <em>Towards more evolvability for software product lines</em><br/><small>I extended C language to support delta-oriented programming which resulted in a language with better evolvability for development of Linux kernel</small>
+    "
+
+  - title: Bachelor of Computer Science
+    institute: University of Tabriz
+    date: 2009 – 2012
+    img: tabrizu.png
+    description: "Representative Of Tabriz University in ACM <small>National Programming Contest</small> (Ranked 23th/70)<br/>
+<b>Ranked 1st</b> in Every Semester
+"
+
+experience:
+  - title: Scala Tutor & Technical Problem Solver
+    institute: Iran Internet Group
+    date: Aug 2017 – Jul 2018 (~ 1 yr)
+    img: iig.png
+    description: "Worked in two subsidiaries of IranIG Snapptrip, Hitt."
+    responsibilities:
+    - title: "DevOps Engineer <small>(Hitt)</small>"
+      technologies: Ubuntu, Nginx
+    - title: "Software Auditor and Problem Solver <small>(Hitt)</small>"
+      technologies: Conveyed requirements to Hitt's development team in India, track project's progress, assissted in Design of the system, and also intervened and solved problems emerged in server/backend-app/mobile-app.
+    - title: "Backend Advisor / Tutor <small>(Snapptrip)</small>"
+      technologies: Created 8 hours of tutorial for Scala Backend Development (are available for public use) and held workshops for technical team.
+
+  - title: Senior Frontend Developer & DevOps Assistant
+    institute: Tasvir Gostar Pasargad
+    date: Apr 2017 – Jul 2018 (1 yr & 4 mos)
+    img: pasargad.png
+    description: "Re-engineered and re-implemented lotusplay website and hybrid mobile application according to new designs and requirements.
+    "
+    responsibilities:
+    - title: "Frontend: Web Development"
+      technologies: Html, Sass, Bootsrap, jQuery, Grunt
+    - title: "Frontend: Hybrid Mobile Developer"
+      technologies: Apache Cordova
+
+  - title: Java Backend Architect & Mobile/Web Developer Assistant
+    institute: Poolam
+    date: Apr 2016 – Mar 2017 (~ 1 yr)
+    img: poolam.png
+    description: "I was hired as the initial member of the technical team for a startup. I discussed requirements with the product manager and built architecture of the system that would serve the mobile application. I also assisted Android developer and partially developed iOS Mobile application of the project using Swift3.
+  <br/>In my spare time I developed the sponsor company's website (Teska).
+    "
+    responsibilities:
+      - title: "Server, Database: Administration"
+        technologies: CentOS, Supervisord, HAProxy, SELinux, Oracle 12.1c, MongoDB
+      - title: "Backend: Analysis, Design and Development"
+        technologies: Java, Spring, JOOQ, JavaSlang, Flyway, Swagger
+      - title: "Frontend: Mobile Development Assistant"
+        technologies: Swift3, Java-Android
+      - title: "Frontend: Web Development"
+        technologies: Html, Sass, Foundation, Typescript, jQuery, Gulp
+      - title: "Reverse Engineer"
+        technologies: X64-Asm, JVM-Bytecode
+
+  - title: Scala Backend Developer & DevOps Assistant
+    institute: Modernpal
+    date: Mar 2016 – Mar 2017 (~ 1 yr 1 mo)
+    img: modernpal.png
+    description: "Worked directly with technical manager to develop REST services for web/mobile frontend, evolve and improve backend/server infrastructure.
+    "
+    responsibilities:
+      - title: "Server: Administration"
+        technologies: Ubuntu, Jenkins, Supervisord, Rsync, Crontab, NginX, PostgreSQL, MongoDB
+      - title: "Backend: Analysis, Design and Development"
+        technologies: Scala, Scala-Reflect (Macros), Play2, Akka, Slick3, Specs2, Swagger
+
+
+  - title: Java Network Developer
+    institute: Intelligent Information Solutions Center at Sharif University
+    date: Jan 2015 – Dec 2015 (1 yr)
+    img: iis.png
+    description: "As network module developer I designed and developed a micro-service (with RESET API) for communicating with network devices (capable of both monitoring and configuration). Main purpose of the module was to automate the establishment and maintenance of MPLS VPNs.
+    "
+    responsibilities:
+      - title: "Backend: Core Network Development"
+        technologies: Java, Snmp4J, SSHD, JUnit, Mockito, Powermock, ExpectIt, GNS3, Wireshark, Mininet.
+
+  - title: Java Developer (Internship)
+    institute: Avan Software Technology Advisors (ASTA)
+    date: Jun 2014 – Nov 2014 (6 mos)
+    img: avan.png
+    description: "I worked on improving and adding new features to company's portal product-line which was used to build product for several state organizations.
+    "
+    responsibilities:
+      - title: "Backend: Product-Line Design and Development"
+        technologies: Java, Spring-MVC, Hibernate, GWT
+
+  - title: Delphi Desktop Developer & Php Web Developer
+    institute: Danger Gamenet
+    date: Mar 2006 – Feb 2008 (2 yrs)
+    img: danger-gamenet.png
+    description: "I designed and developed a customized managing software for this game-net using Delphi, similar to famous software GamePort. After a year that good words spread around it we distributed it to several other game-nets. I also developed several websites for clients.
+    "
+    responsibilities:
+    - title: "Desktop: Windows Application Developer"
+      technologies: Windows XP, Delphi, TCP/IP
+    - title: "Junior Web Developer"
+      technologies: Php, Html, Css
+
+publication:
+  - title:  "SDxVPN: A Software-Defined Solution for VPN Service Providers"
+    url: http://ieeexplore.ieee.org/document/7502811/
+    type: Academic Paper
+    date: April 2016
+    img: ieee.png
+    institute: IEEE/IFIP Network Operations and Management Symposium
+    description: A SDN-based VPN solution called SDxVPN which considerably lowers the complexity of management, lowers cost both in terms of management and network device, and better flexibility for controlling connections.
+
+  - title: Advanced Concepts in Scala - Running things before runtime
+    url: https://www.linkedin.com/pulse/tech-talk-advanced-concepts-scala-nima-taheri
+    type: Technical Talk
+    date: Jan 2017
+    img: tehlug.png
+    institute: 229th Meeting of Tehran GNU/Linux Group
+    description: "Covered topics were <em>scala compiler overview</em>, <em>scala compiler plugins</em>, <em>blackbox, whitebox and annotation macros</em>, <em>exploring Scala.meta</em>"
+
+  - title: Scala Quick Guide
+    url: http://engineering.pintapin.com/1396/06/30/scala-quick-guide/
+    type: Video Tutorial
+    date: Jul 2017
+    img: scalaguide.png
+    institute: Snapptrip
+    description: "Video series covering most concepts, methods and popular frameworks of Scala language (Level: <b>intermediate</b> to <b>advanced</b>)"
+
+recommendations:
+
+  - name:     Amir Karimi
+    url:      https://www.linkedin.com/in/amirkarimi/
+    position: Software Engineer at Walt Disney Streaming Services
+    img:      amir-karimi.png
+    relation: Amir directly managed Nima at ModernPal
+    content:  When I interviewed Nima on March 2016, he had not developed a single line of Scala code; Now he is one of the few professional Scala developers in Iran that I know of. Nima is an independent, smart, result-oriented young man who has a knack for solving difficult puzzles. In terms of personality, he has a great sense of humor.
+
+  - name:     Behzad Mirkhanzadeh
+    url:      https://www.linkedin.com/in/bmirkhanzadeh/
+    position: Research Assistant at University of Texas at Dallas
+    img:      behzad-mirkhanzadeh.png
+    relation: Behzad was Nima's co-worker at Intelligent Information Solutions Center
+    content:  I worked with Nima in the OSS project of Telecommunication Infrastructure Of Iran, Meanwhile we accomplished an extensive research work and published it in IEEE/IFIP NOMS 2016 Conference. He is one of the best and most skillful software developers I have ever seen. He implemented and designed the core module of the OSS which was very complex and challenging. His intelligence and hardworking attitude as well as great teamwork abilities make him an ideal software engineer, especially in stressful volatile environments. A company would be lucky to have him!
+
+  - name:     Ali Sarshad
+    url:      https://www.linkedin.com/in/ali-sarshad-2b4301a
+    position: Project Manager and UI/UX Designer
+    img:      ali-sarshad.png
+    relation: Ali directly managed Nima at Tasvir Gostar Pasargad
+    content:  We met Nima, when we were in a severe time constraint and in need of a developer who is able to re-engineer our website and mobile application. Nima is a professional and experienced software developer, who does his job with extreme care and patience. A person who can be counted on in tough circumstances.
+
+  - name:     Mahdi Azadbar
+    url:      https://www.linkedin.com/in/mahdi-azadbar-a71b9710b/
+    position: Android Developer
+    img:      mahdi-azadbar.png
+    relation: Mahdi was Nima's co-worker at Teska
+    content:  Every time I think of a creative, talented and skillful developer, the first person that comes to my mind is Nima. He has a sharp vision in solving problems and sound knowledge in software development which enables him to learn and handle any new platform or language. Besides, Nima is very agreeable, has major commitment to his work and assists his colleagues by all means.
+
+  - name:     Mehdi Ebadi
+    url:      https://www.linkedin.com/in/mehdi-ebadi-4320279/
+    position: Fintech Product Manager
+    img:      mehdi-ebadi.png
+    relation: Mehdi directly managed Nima at Teska
+    content:  We always discuss and have debate over technologies and he is a big fan of the cutting-edge technologies. Nima learns very fast, Not just fast but deep. Meticulousness is another good trait of him, When there is a problem he inspects all dimensions of the problem to come up with a reliable solution. Nima is smart, accurate and open-minded in software development, which is in fact the most important skill. Concerning his personality, I should say, he is kind, calm and introverted yet he has two big wings to fly. He is also open minded in life and is always ready to think twice about his choices.
+
+
+projects:
+  - title:    Hitt News
+    link:     "https://hitt.ir"
+    period:   Aug 2017
+    content:   Hitt extracts important, credible news from various sources, summerizes in less than 60 words and delivers to every user based on their interests.
+    institute: Iran Internet Group
+    img:      hitt.png
+
+  - title:    LotusPlay
+    link:     "https://lotusplay.ir"
+    period:   Apr 2017
+    content:  The online media streaming and video-on-demand service of Tasvir Gostar Pasargad company which is the distributor of many Iranian movies and TV series. Restyled LotusPlay website, made it responsive to mobile and tablet size, added appropriate animations to it and gave it a professional look overall. Also re-engineered its legacy cordova mobile application.
+    institute: Tasvir Gostar Pasargad
+    img:      lotusplay.png
+
+  - title:    HealthyPal
+    link:     "http://healthypal.ir/"
+    period:   Mar 2016
+    content:  Healthypal is an application implemented on mobile and web platforms for health experts to have a closer and more efficient relation with their customers. Through Healthypal, doctors and sports-trainers are able to give consultation, send out care/workout/nutrition programs, monitor patients for after-care measures, supervise trainees workouts, etc. at the moment.
+    institute: ModernPal
+    img:      healthypal.png
+
+  - title:    Poolam
+    link:     "http://poolam.ir/"
+    period:   Apr 2016
+    content:  Poolam is an expense management application for mobile devices. Customer signs a contract with his bank to receive Poolam e-receipt instead of plain text SMS whenever he did a transaction. Poolam then provides user with intelligent financial advices, useful statistics besides a nice view of transactions.
+    institute: Poolam
+    img:      poolam.png
+
+  - title:    National Operational Support System
+    period:   Jan 2015
+    content:  "In this project we developed an operational support system (OSS) for Iran's Telecommunication Infrastructure company to manage their network devices and services. In particular we focused on Provisioning MPLS VPN and VPLS services through OSS system and monitor the status and the quality of these services. We designed two libraries throughout this projects: (1) Java-Reflection Based Framework for Batch Snmp Query. (2) XML Based Multi-Vendor Engine for Configuration of Network Devices"
+    institute: Intelligent Information Solutions Center at Sharif University
+    img:      oss.png
+
+  - title:    NPort, A GameNet Management Solution
+    period:   Mar 2006
+    content:  NPort was a fully-featured gamenet management solution used in several gamenets in Tehran. NPort had a client-server architecture, and was implemented using Borland Delphi and Tcp Socket.
+    institute: FreeLancer
+    img:      nport.png
+
+honor:
+  - title: Ranked <b>24th</b> in Nationwide Entrance Exam for Graduate Studies
+    institute: National Organization for Educational Testing
+    date: May 2013
+
+  - title: Granted Admission for Master's Degree of Science in Informatics
+    institute: Université Joseph Fourier, Grenoble (MOSIG), France
+    date: May 2013
+    description: For personal reasons I preferred Sharif University over it.
+
+  - title: Ranked 1st in Department of Computer Science
+    institute: University of Tabriz
+    date: 2013
+
+  - title: Ranked 1st
+    institute: Alborz High School
+    date: 2004
+
+
+skill:
+  - group: Programming and Scripting Language
+    langs:
+      - title: Scala <small>(Play)</small>, Java <small>(Spring)</small>
+        level: 90
+      - title: Python, Cpp17, Javascript <small>(React, React-Native)</small>, Bash
+        level: 65
+      - title: Android, iOS (Swift), Go, Php7
+        level: 25
+  - group: Markup Language
+    langs:
+      - title: Html, Css3, Sass <small>(BEM)</small>
+        level: 90
+      - title: LaTeX, Jekyll
+        level: 40
+  - group: OS Administration
+    langs:
+      - title: Linux <small>(Ubuntu, CentOS)</small>
+        level: 70
+      - title: Windows, macOS
+        level: 70
+  - group: Database
+    langs:
+      - title: PostgreSQL, MySQL
+        level: 70
+      - title: Oracle, MongoDB
+        level: 40
+  - group: Foreign Language
+    langs:
+      - title: English ( Academic IELTS <small>2013</small> )
+        level: 75
+
+
+contact:
+  - email: "nima.trueway@gmail.com"
+    mobile: "+ 98 912 761 59 48"
+    address: "Unit. 3, No. 22, Ferdowsi Alley, Dabestan St., Seyyedkhandan, Tehran, Iran"
+

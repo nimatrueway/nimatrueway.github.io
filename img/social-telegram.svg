@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40 (33762) - http://www.bohemiancoding.com/sketch -->
+    <title>social-telegram</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="social-telegram">
+            <circle id="Oval" fill="#282C38" cx="10" cy="10" r="10"></circle>
+            <path d="M13.8,7.7 C13.4,8.8 13.1,9.8 12.7,10.9 C12.2,12.2 11.8,13.5 11.4,14.7 C11.3,15 11.1,15.2 10.8,15.3 C10.5,15.3 10.2,15.1 10.1,14.9 C9.7,14.1 9.3,13.3 8.9,12.5 C8.7,12.1 8.4,11.8 8,11.6 C7.4,11.3 6.7,11 6.1,10.7 C6,10.6 5.9,10.6 5.8,10.5 C5.5,10.3 5.3,10.1 5.3,9.7 C5.3,9.3 5.6,9.2 5.9,9.1 C8.2,8.3 10.5,7.5 12.8,6.7 C13.5,6.5 13.9,6.7 13.9,7.4 C13.9,7.4 13.9,7.5 13.8,7.7 L13.8,7.7 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

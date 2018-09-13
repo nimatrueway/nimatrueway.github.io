@@ -1,0 +1,218 @@
+---
+# resume-template
+---
+@charset "utf-8";
+@import "platform/colors", "platform/font", "platform/globs", "platform/prefs", "platform/tools";
+@import "include-media";
+
+body {
+  background-color: $background-color;
+}
+
+.resume-text {
+  font-family: "Raleway";
+  font-size: 20px;
+  white-space: pre-wrap;
+}
+
+#long-line {
+  position: absolute;
+  height: 100%;
+  margin-left: 75px;
+  border-right: solid 2px $silver-two;
+  @include media("print") {
+    display: none;
+  }
+  @include media("<=tablet") {
+    display: none;
+  }
+}
+
+#resume-container {
+  margin-top: 140px;
+  margin-left: 190px;
+  @include media("print") {
+    margin-left: 40px;
+  }
+  @include media("<=tablet") {
+    margin-left: 40px;
+  }
+  @include media("<=phone") {
+    margin-left: 15px;
+  }
+}
+
+#top-container.resume-page {
+  margin-bottom: 0 !important;
+}
+
+.resume-item {
+  padding-bottom: 70px;
+  border-bottom: solid 1px $silver-two;
+  margin-bottom: 70px;
+}
+
+.print-only {
+  @include media("print") {
+    display: block;
+  }
+  display: none;
+}
+
+.resume-item.last {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.resume-item-title {
+  position: relative;
+  @include media("<=phone") {
+    padding-left: 25px;
+  }
+  div.img-wrapper {
+    position: absolute;
+    top: 3px;
+    left: -45px;
+    width: 30px;
+    text-align: right;
+    img {
+      height: 20px;
+    }
+    @include media("<=phone") {
+      left: -20px;
+    }
+  }
+  span {
+    font-size: 22px;
+    color: $dark-sky-blue;
+  }
+}
+
+.resume-item {
+  font-size: 18px;
+  position: relative;
+  & > .title-institute-period:first-child {
+    margin-top: 0;
+  }
+  .resume-item-title {
+    margin-bottom: 45px;
+  }
+  .circle {
+    @include media("<=tablet") {
+      display: none;
+    }
+    @include media("print") {
+      display: none;
+    }
+    position: absolute;
+    background-color: $background-color;
+    text-align: center;
+    font-size: 50px;
+    left: -115px;
+    top: 0;
+    line-height: 33px;
+    height: 30px;
+    width: 30px;
+    margin-left: -15px;
+    color: $silver-two;
+  }
+}
+
+.title-institute-period {
+  page-break-inside: avoid;
+  line-height: 25px;
+  margin-bottom: 25px;
+  margin-top: 35px;
+  div.title {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .tag {
+    display: block;
+    font-size: 15px;
+  }
+  div.date {
+    color: $dark-grey;
+    font-size: 17px;
+  }
+}
+
+.as-position-container {
+  background: url('../img/tick.svg') no-repeat 0 2px;
+  padding-left: 50px;
+  margin-bottom: 20px;
+  @include media("<=phone") {
+    padding-left: 35px;
+    margin-left: -20px;
+    background-position: 5px 2px;
+  }
+  .as-position {
+    font-weight: 600;
+  }
+}
+
+.skill-group {
+  margin-left: -5px;
+  margin-top: 35px;
+  font-size: 20px;
+  div:first-letter {
+    font-size: 25px;
+  }
+}
+
+.unbreakable {
+  page-break-inside: avoid;
+}
+
+.skill-item {
+  margin-top: 30px;
+  .skill-title {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .knowledge-percent {
+    width: 50%;
+    min-width: 300px;
+    height: 5px;
+    background-color: $silver-two;
+    @include media("print") {
+      min-width: 90%;
+    }
+    @include media("<=tablet") {
+      min-width: 90%;
+    }
+    div {
+      background: $dark-sky-blue;
+      height: 100%;
+    }
+  }
+}
+
+.footer {
+  @include media("<=phone") {
+    left: -15px;
+    right: -15px;
+    width: calc(100% + 30px);
+  }
+  position: relative;
+  left: -50px;
+  width: calc(100% + 100px);
+
+  height: 100px;
+  padding: 30px 0;
+
+  color: #282c38AA;
+  background-color: #fafafb;
+  text-align: center;
+  font-family: Raleway;
+  font-weight: $font-weight-medium;
+}
+
+.recomm-img-wrapper {
+  padding-left: 85px;
+  background: no-repeat 5px 3px;
+}
+
+.milder {
+  color: #5d5d5d;
+}

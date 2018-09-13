@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<div id="home">
+  <div id="top-container" class="resume-page">
+    {% include header.html page="blog" %}
+    <div id="posts-container">
+
+      {% for post in paginator.posts %}
+      <div class="post-item">
+        <a href="{{site.url}}{{site.baseurl}}{{post.url}}">
+          <img src="/img/posts/{{post.img}}" />
+          <!-- {{post.tag}} -->
+          <div class="post-title">{{post.title}}</div>
+        </a>
+        <div class="post-summary">{{post.excerpt}}</div>
+        <div class="post-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></div>
+      </div>
+      {% endfor %}
+      {% if paginator.total_pages > 1 %}
+        <nav class="pagination">
+          <!-- PREVIOUS PAGE -->
+          {% if paginator.previous_page %}
+            <a class="paginationLink" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+          {% endif %}
+          <!-- PAGE NUMBERS -->
+          {% for page in (1..paginator.total_pages) %}
+            {% if page == paginator.page %}
+              <em class="paginationLink paginationLinkCurrent">{{ page }}</em>
+            {% elsif page == 1 %}
+              <a class="paginationLink" href="/{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: 'page:num', '' }}">{{ page }}</a>
+            {% else %}
+              <a class="paginationLink" href="/{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+            {% endif %}
+          {% endfor %}
+          <!-- NEXT PAGE -->
+          {% if paginator.next_page %}
+            <a class="paginationLink" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+          {% endif %}
+        </nav>
+      {% endif %}
+
+    </div>
+  </div>
+</div>

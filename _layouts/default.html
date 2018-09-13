@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- open graph tags -->
+  {% if page.excerpt %} {% include meta-post.html %}
+  {% else %} {% include meta-default.html %} {% endif %}
+
+  <!-- IE -->
+  <link rel="shortcut icon" type="image/x-icon" href="{{site.url}}/img/nima.ico" />
+  <!-- other browsers -->
+  <link rel="icon" type="image/x-icon" href="{{site.url}}/img/nima.ico" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+  <link rel="stylesheet" media="all" href="/css/common.css" />
+  <link rel="stylesheet" media="all" href="/css/resume.css" />
+  <link rel="stylesheet" media="all" href="/css/blog.css" />
+  <title>{{site.name}}'s Home Page</title>
+<!--
+  <script language="javascript" src="js/libs.js"></script>
+  <script language="javascript" src="js/main.js"></script>
+-->
+</head>
+<body>
+  {{ content }}
+</body>
+{% if site.livereload == true %}
+<script src="http://localhost:35729/livereload.js"></script>
+{% endif %}
+</html>

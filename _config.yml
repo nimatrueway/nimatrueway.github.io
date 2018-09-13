@@ -1,0 +1,28 @@
+# Preparations
+# gem install jekyll jekyll-paginate guard guard-livereload guard-jekyll
+
+# Site settings
+name: Nima Taheri
+title: Software Engineer
+baseurl: ""
+url: "https://nimatrueway.github.io"
+gmail_username: nimatrueway
+twitter_username: nimatrueway
+github_username:  nimatrueway
+linkedin_username:  nimatrueway
+telegram_username:  nimatrueway
+
+# Plugins
+plugins: [jekyll-paginate, kramdown]
+livereload: false # gem install guard, guard-jekyll
+
+# Build settings
+markdown: kramdown
+
+# Paginate
+paginate: 2
+paginate_path: "blog/page:num"
+
+# Sass settings
+sass:
+  sass_dir: _sass

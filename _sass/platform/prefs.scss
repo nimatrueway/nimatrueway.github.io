@@ -1,0 +1,11 @@
+// ---------- options
+
+// DEBUG MODE
+$home-show-splash-screen: false;
+$show-screen-size: true;
+$show-menu: false;
+
+// RELEASE MODE
+$home-show-splash-screen: true;
+$show-screen-size: false;
+$show-menu: false;

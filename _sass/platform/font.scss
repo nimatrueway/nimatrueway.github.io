@@ -1,0 +1,28 @@
+@import "globs";
+
+// ---------- font
+
+@mixin setWebsiteDefaultFont {
+  $font-name: 'Raleway';
+  @font-face { // regular
+    font-family: $font-name;
+    src: url('#{$font_dir}#{$font-name}-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+  @font-face { // bold
+    font-family: $font-name;
+    src: url('#{$font_dir}#{$font-name}-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: bold;
+  }
+  @font-face { // medium
+    font-family: $font-name;
+    src: url('#{$font_dir}#{$font-name}-Medium.ttf') format('truetype');
+    font-style: normal;
+    font-weight: $font-weight-medium;
+  }
+  body {
+    font-family: #{$font-name};
+  }
+}

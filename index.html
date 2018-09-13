@@ -1,0 +1,202 @@
+---
+layout: default
+---
+
+<div id="home">
+  <div id="top-container" class="resume-page">
+    {% include header.html page="resume" %}
+    <div id="resume-container">
+
+      <p style="position: relative; top: -30px;" class="print-only">
+        Printed from: http://nimatrueway.github.io/
+      </p>
+
+      <!-- Summary -->
+      <div class="resume-item">
+        <div class="circle">&bull;</div>
+        <div class="resume-item-title">
+          <div class="img-wrapper"><img src="img/cv-summary.svg" /></div>
+          <span>Summary</span>
+        </div>
+        <pre class="resume-text">{{ site.data.resume.summary }}</pre>
+      </div>
+
+
+      <!-- Education -->
+      <div class="resume-item">
+        <div class="circle">&bull;</div>
+        <div class="resume-item-title">
+          <div class="img-wrapper"><img src="img/cv-education.svg" /></div>
+          <span>Education</span>
+        </div>
+        {% for edu in site.data.resume.education %}
+        <div class="unbreakable" style="display: block">
+            <div class="title-institute-period recomm-img-wrapper" style="background-image: url('img/icons/{{edu.img}}')">
+            <div class="title">{{edu.title}}</div>
+            <div class="institute">{{edu.institute}}</div>
+            <div class="date">{{edu.date}}</div>
+          </div>
+          <pre class="resume-text">{{edu.description}}</pre>
+        </div>
+        {% endfor %}
+      </div>
+
+
+      <!-- Experiences -->
+      <div class="resume-item">
+        <div class="circle">&bull;</div>
+        <div class="resume-item-title">
+          <div class="img-wrapper"><img src="img/cv-experience.svg" /></div>
+          <span>Experience</span>
+        </div>
+        {% for expr in site.data.resume.experience %}
+        <div class="title-institute-period recomm-img-wrapper" style="background-image: url('img/icons/{{expr.img}}')">
+          <div class="title">{{expr.title}}</div>
+          <div class="institute">{{expr.institute}}</div>
+          <div class="date">{{expr.date}}</div>
+        </div>
+        <pre class="resume-text">{{expr.description}}</pre>
+        <br/>
+          {% for res in expr.responsibilities %}
+          <div class="as-position-container unbreakable">
+            <div class="as-position">{{res.title}}</div>
+            <div class="as-job">{{res.technologies}}</div>
+          </div>
+          {% endfor %}
+        {% endfor %}
+      </div>
+
+
+      <!-- Publications and Technical Talks -->
+      <div class="resume-item">
+        <div class="circle">&bull;</div>
+        <div class="resume-item-title">
+          <div class="img-wrapper"><img src="img/cv-experience.svg" /></div>
+          <span>Publications and Technical Talks</span>
+        </div>
+        {% for pub in site.data.resume.publication %}
+        <div class="unbreakable">
+          <div class="title-institute-period recomm-img-wrapper" style="background-image: url('img/icons/{{pub.img}}')">
+            <span class="tag">{{pub.type}}</span>
+            <div class="title"><a href="{{pub.url}}">{{pub.title}}</a></div>
+            <div class="institute">{{pub.institute}}</div>
+            <div class="date">{{pub.date}}</div>
+          </div>
+          <pre class="resume-text">{{pub.description}}</pre>
+        </div>
+        {% endfor %}
+      </div>
+
+
+      <!-- Recommendations -->
+      <div class="resume-item">
+        <div>
+          <div class="circle">&bull;</div>
+          <div class="resume-item-title">
+            <div class="img-wrapper"><img src="img/cv-recommendations.svg" /></div>
+            <span>Recommendations</span>
+          </div>
+        </div>
+        {% for recom in site.data.resume.recommendations %}
+        <a href="{{recom.url}}" style="display: block">
+          <div class="title-institute-period recomm-img-wrapper" style="background-image: url('img/people/{{recom.img}}')">
+            <div class="title">{{recom.name}}</div>
+            <div class="institute">{{recom.position}}</div>
+            <div class="date">{{recom.relation}}</div>
+          </div>
+        </a>
+        <pre class="resume-text milder">{{recom.content}}</pre>
+        {% endfor %}
+      </div>
+
+
+      <!-- Projects -->
+      <div class="resume-item">
+        <div>
+          <div class="circle">&bull;</div>
+          <div class="resume-item-title">
+            <div class="img-wrapper"><img src="img/cv-projects.svg" /></div>
+            <span>Projects</span>
+          </div>
+        </div>
+        {% for project in site.data.resume.projects %}
+        <div class="unbreakable">
+          <a {% if project.link %} href="{{project.link}}" {% endif %}>
+            <div class="title-institute-period recomm-img-wrapper" style="background-image: url('img/icons/{{project.img}}')">
+              <div class="title">{{project.title}}</div>
+              <div class="institute">{{project.institute}}</div>
+              <div class="date">{{project.period}}</div>
+            </div>
+          </a>
+          <pre class="resume-text milder">{{project.content}}</pre>
+        </div>
+        {% endfor %}
+      </div>
+
+
+      <!-- Honors -->
+      <div class="resume-item">
+        <div class="circle">&bull;</div>
+        <div class="resume-item-title">
+          <div class="img-wrapper"><img src="img/cv-honors-and-awards.svg" /></div>
+          <span>Honors and Awards</span>
+        </div>
+        {% for honor in site.data.resume.honor %}
+        <div class="title-institute-period">
+          <div class="title">{{honor.title}}</div>
+          <div class="institute">{{honor.institute}}</div>
+          <div class="date">{{honor.date}}</div>
+        </div>
+        <pre class="resume-text" style="font-size: 0.9em; padding-left: 10px;">{{honor.description}}</pre>
+        {% endfor %}
+      </div>
+
+
+      <!-- Skills -->
+      <div class="resume-item">
+        <div class="circle">&bull;</div>
+        <div class="resume-item-title">
+          <div class="img-wrapper"><img src="img/cv-skills.svg" /></div>
+          <span>Skill</span>
+        </div>
+        {% for skill in site.data.resume.skill %}
+        <div class="unbreakable">
+          <div class="skill-group">
+            <div>{{skill.group}}</div>
+          </div>
+            {% for lang in skill.langs %}
+            <div class="skill-item">
+              <div class="skill-title">{{lang.title}}</div>
+              <div class="knowledge-percent"><div style="width: {{lang.level}}%"></div></div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endfor %}
+      </div>
+
+
+      <!-- Contact Us -->
+      <div class="resume-item last">
+          <div class="circle">&bull;</div>
+          <div class="resume-item-title">
+              <div class="img-wrapper"><img src="img/cv-references.svg" /></div>
+              <span>Contact</span>
+          </div>
+          <div class="title-institute-period">
+              <div class="institute">{{site.data.resume.contact[0].email}}</div>
+              <div style="line-height: 2em;" class="institute">{{site.data.resume.contact[0].mobile}}
+                &nbsp;<img src="img/social-skype.svg" width="20" title="Skype" alt="Skype" />
+                &nbsp;<img src="img/social-whatsapp.svg" width="20" title="Whatsapp" alt="Whatsapp" />
+              </div>
+              <div class="date print-only">{{site.data.resume.contact[0].address}}</div>
+          </div>
+      </div>
+
+    </div>
+    <div class="footer unbreakable">
+      {{site.name}}<br/>
+      {{site.title}}
+    </div>
+  </div>
+
+</div>
