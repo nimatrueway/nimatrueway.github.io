@@ -8,7 +8,7 @@ layout: default
     <div id="resume-container">
 
       <p style="position: relative; top: -30px;" class="print-only">
-        Printed from: http://nimatrueway.github.io/
+        This is a summarized version of my resume printed from http://nimatrueway.github.io/
       </p>
 
       <!-- Summary -->
@@ -16,7 +16,7 @@ layout: default
         <div class="circle">&bull;</div>
         <div class="resume-item-title">
           <div class="img-wrapper"><img src="img/cv-summary.svg" /></div>
-          <span>Summary</span>
+          <span>Kurzgesagt</span>
         </div>
         <pre class="resume-text">{{ site.data.resume.summary }}</pre>
       </div>
@@ -56,7 +56,7 @@ layout: default
           <div class="date">{{expr.date}}</div>
         </div>
         <pre class="resume-text">{{expr.description}}</pre>
-        <br/>
+        {% if expr.description %}<br/>{% endif %}
           {% for res in expr.responsibilities %}
           <div class="as-position-container unbreakable">
             <div class="as-position">{{res.title}}</div>
@@ -89,7 +89,7 @@ layout: default
 
 
       <!-- Recommendations -->
-      <div class="resume-item">
+      <div class="resume-item non-print-only">
         <div>
           <div class="circle">&bull;</div>
           <div class="resume-item-title">
@@ -111,7 +111,7 @@ layout: default
 
 
       <!-- Projects -->
-      <div class="resume-item">
+      <div class="resume-item non-print-only">
         <div>
           <div class="circle">&bull;</div>
           <div class="resume-item-title">
@@ -135,7 +135,7 @@ layout: default
 
 
       <!-- Honors -->
-      <div class="resume-item">
+      <div class="resume-item non-print-only">
         <div class="circle">&bull;</div>
         <div class="resume-item-title">
           <div class="img-wrapper"><img src="img/cv-honors-and-awards.svg" /></div>

@@ -7,6 +7,9 @@
 
 body {
   background-color: $background-color;
+  @include media("print") {
+    background-color: white;
+  }
 }
 
 .resume-text {
@@ -50,6 +53,13 @@ body {
   padding-bottom: 70px;
   border-bottom: solid 1px $silver-two;
   margin-bottom: 70px;
+}
+
+.non-print-only {
+  @include media("print") {
+    display: none;
+  }
+  display: block;
 }
 
 .print-only {

@@ -1,9 +1,11 @@
 summary: |
-  Complexity is what fascinates <b>specialists</b>, but <b>simplicity</b> is what gets the job actually done.
+  I have been a programming enthusiast since I was <b>12 years old</b>. I started by journey by developing <b>Delphi</b> and <b>C++</b> desktop apps. Then shifted to the amazing object-oriented cross-platform <b>Java</b> when I became an <b>undergraduate</b> student. And finally functional programming and developing <b>Scala</b> is what interested me <b>+2 years ago</b> and developed it since then.
 
-  Throughout my career I realized regardless of your role, or the language you use; you are still able to create an engineering masterpiece by carefully paying attention to your working <b>ecosystem</b>, using (or sometimes creating) the <b>right tool</b>, and come up with the <b>best combination</b>.
+  My <b>main</b> field of specialty is well-tested scalable <font color="#e18fb2"><b>backend development</b></font> (since <font color="#e18fb2"><b>4 years ago</b></font>) but I also have a good experience with <font color="#4a90e2"><b>web frontend</b></font> and <font color="#4a90e2"><b>desktop</b></font> development, and every once in a while I code and <font color="#4a90e2"><b>assist mobile</b></font> developers too.
 
-  Life is absurd, if you can not be <b>passionate</b> about something that contributes to the world. Passion is wonderfully contagious, I immensely enjoyed working with passionate people throughout my life and decided to <b>only</b> work with such people.
+  As you see I am not married to any role or any programming language, my <font color="#e18fb2"><b>1st priority</b></font> has always been to <font color="#e18fb2"><b>get the job done</b></font>. My <font color="#4a90e2"><b>2nd priority</b></font> is <font color="#4a90e2"><b>technical excellence</b></font>, and by that I mean the design with the <font color="#4a90e2"><b>least repetition</b></font>, and <font color="#4a90e2"><b>error</b></font>.
+
+  I have a good <b>sense of humor</b>. I love working in a <b>small</b>, <b>casual</b> and <b>friendly</b> team of <font color="#e18fb2"><b>passionate</b></font> people. Life would be absurd, if we are not passionately doing something that <b>contributes to our world</b>.
 
 education:
   - title: Master of Software Engineering
@@ -17,99 +19,84 @@ education:
     institute: University of Tabriz
     date: 2009 – 2012
     img: tabrizu.png
-    description: "Representative Of Tabriz University in ACM <small>National Programming Contest</small> (Ranked 23th/70)<br/>
-<b>Ranked 1st</b> in Every Semester
-"
+    description: "<b>Ranked 1st</b> in every semester"
 
 experience:
-  - title: Scala Tutor & Technical Problem Solver
+  - title: Scala Backend Tutor & Technical Problem Solver
     institute: Iran Internet Group
     date: Aug 2017 – Jul 2018 (~ 1 yr)
     img: iig.png
-    description: "Worked in two subsidiaries of IranIG Snapptrip, Hitt."
     responsibilities:
-    - title: "DevOps Engineer <small>(Hitt)</small>"
-      technologies: Ubuntu, Nginx
-    - title: "Software Auditor and Problem Solver <small>(Hitt)</small>"
-      technologies: Conveyed requirements to Hitt's development team in India, track project's progress, assissted in Design of the system, and also intervened and solved problems emerged in server/backend-app/mobile-app.
-    - title: "Backend Advisor / Tutor <small>(Snapptrip)</small>"
-      technologies: Created 8 hours of tutorial for Scala Backend Development (are available for public use) and held workshops for technical team.
+    - technologies: Created 8 hours of <b>Scala video tutorials</b> (publicly available) and held workshops for Snapptrip.
+    - technologies: Helped the Hitt's product manager, <b>break down the requirements</b> into fine-grained designs.
+    - technologies: <b>Coordinated</b> the development team in <b>India</b>, <b>reviewed</b> all codebases, <b>tracked</b> project's progress, intervened and assisted in <b>solving problems</b>.
+    - technologies: Solved the <b>issues</b> with the encoding, streaming and playing <b>videos</b>.
+    - technologies: Developed the artistic design of Hitt's home page using <b>React</b>.
+    - technologies: Designed <b>assignment</b> and <b>reviewed</b> applicants' submitted solutions for backend and mobile developer job positions
 
-  - title: Senior Frontend Developer & DevOps Assistant
+  - title: Frontend Developer & DevOps Assistant
     institute: Tasvir Gostar Pasargad
     date: Apr 2017 – Jul 2018 (1 yr & 4 mos)
     img: pasargad.png
-    description: "Re-engineered and re-implemented lotusplay website and hybrid mobile application according to new designs and requirements.
-    "
     responsibilities:
-    - title: "Frontend: Web Development"
-      technologies: Html, Sass, Bootsrap, jQuery, Grunt
-    - title: "Frontend: Hybrid Mobile Developer"
-      technologies: Apache Cordova
+    - technologies: Re-engineered the entangled <b>stylesheets</b> of the legacy website into a clean <b>BEM</b> architecture
+    - technologies: Changed the website's look according to the <b>new design</b> and implemented the <b>new features</b> by utilizing the best <b>libraries</b>
+    - technologies: <b>Refactored</b> Cordova mobile application codebase to gain better <b>readability</b> and <b>modularity</b>
+    - technologies: Implemented <b>new features</b> on the <b>mobile application</b> with minimal code change
+    - technologies: Enhanced <b>build automation</b> by integration new <b>grunt</b> plugins, and writing new <b>Python</b> scripts
+    - technologies: <b>Contributed</b> to Cordova open-source libraries by <b>fixing bugs</b>
+
 
   - title: Java Backend Architect & Mobile/Web Developer Assistant
     institute: Poolam
     date: Apr 2016 – Mar 2017 (~ 1 yr)
     img: poolam.png
-    description: "I was hired as the initial member of the technical team for a startup. I discussed requirements with the product manager and built architecture of the system that would serve the mobile application. I also assisted Android developer and partially developed iOS Mobile application of the project using Swift3.
-  <br/>In my spare time I developed the sponsor company's website (Teska).
-    "
     responsibilities:
-      - title: "Server, Database: Administration"
-        technologies: CentOS, Supervisord, HAProxy, SELinux, Oracle 12.1c, MongoDB
-      - title: "Backend: Analysis, Design and Development"
-        technologies: Java, Spring, JOOQ, JavaSlang, Flyway, Swagger
-      - title: "Frontend: Mobile Development Assistant"
-        technologies: Swift3, Java-Android
-      - title: "Frontend: Web Development"
-        technologies: Html, Sass, Foundation, Typescript, jQuery, Gulp
-      - title: "Reverse Engineer"
-        technologies: X64-Asm, JVM-Bytecode
+      - technologies: Designed and developed the project's <b>backend</b> from the scratch according to the product manager's requirements using <b>Spring</b> framework
+      - technologies: Setup a <b>cluster</b> of nodes and distributed the load on them using <b>HAProxy</b>
+      - technologies: <b>Optimized data</b> retrieval by minimizing the roundtrips to database, optimizing SQLs, defined appropriate indices/shard on tables
+      - technologies: Used <b>JOOQ</b> to create type-safe, composable SQL queries
+      - technologies: Used <b>lombok</b> and <b>vavr</b> to add a more functional, concise look to Java
+      - technologies: Initiated the development of iOS and web-frontend
 
   - title: Scala Backend Developer & DevOps Assistant
     institute: Modernpal
     date: Mar 2016 – Mar 2017 (~ 1 yr 1 mo)
     img: modernpal.png
-    description: "Worked directly with technical manager to develop REST services for web/mobile frontend, evolve and improve backend/server infrastructure.
-    "
     responsibilities:
-      - title: "Server: Administration"
-        technologies: Ubuntu, Jenkins, Supervisord, Rsync, Crontab, NginX, PostgreSQL, MongoDB
-      - title: "Backend: Analysis, Design and Development"
-        technologies: Scala, Scala-Reflect (Macros), Play2, Akka, Slick3, Specs2, Swagger
+      - technologies: Designed and developed <b>features</b> according to requirements described by product manager
+      - technologies: CPU-profiled regression tests and improved its <b>speed</b>
+      - technologies: Broke the backend monolith into 4 more <b>managable micro-services</b>
+      - technologies: Reduced boilerplates in many places using <b>macros</b> and <b>shapeless</b>
+      - technologies: Migrated complex CI bash scripts to <b>Python</b>, and setup <b>Jenkins</b> to automate the process further
+      - technologies: Helped mobile developers to make better use of <b>logging</b> to ease diagnosis of reported bugs
 
 
   - title: Java Network Developer
-    institute: Intelligent Information Solutions Center at Sharif University
+    institute: Intelligent Information Solutions Center
     date: Jan 2015 – Dec 2015 (1 yr)
     img: iis.png
-    description: "As network module developer I designed and developed a micro-service (with RESET API) for communicating with network devices (capable of both monitoring and configuration). Main purpose of the module was to automate the establishment and maintenance of MPLS VPNs.
-    "
     responsibilities:
-      - title: "Backend: Core Network Development"
-        technologies: Java, Snmp4J, SSHD, JUnit, Mockito, Powermock, ExpectIt, GNS3, Wireshark, Mininet.
+      - technologies: Developed a reflection-based library to perform <b>SNMP queries</b> on network devices
+      - technologies: <b>Parallelized</b> SNMP queries which substantially boosted the speed of the module
+      - technologies: Developed an <b>ansible-like engine</b> to communicate with network devices through <b>SSH</b>
+      - technologies: Intensely wrote <b>unit tests</b> for the module to achieve a high degree of stability and evolvability
 
   - title: Java Developer (Internship)
     institute: Avan Software Technology Advisors (ASTA)
     date: Jun 2014 – Nov 2014 (6 mos)
     img: avan.png
-    description: "I worked on improving and adding new features to company's portal product-line which was used to build product for several state organizations.
-    "
     responsibilities:
-      - title: "Backend: Product-Line Design and Development"
-        technologies: Java, Spring-MVC, Hibernate, GWT
+      - technologies: Implemented <b>new features</b> for company's <b>JSF</b>-like web framework
+      - technologies: Helped <b>migration</b> of the build stack from Ant to <b>Maven</b>
 
   - title: Delphi Desktop Developer & Php Web Developer
     institute: Danger Gamenet
     date: Mar 2006 – Feb 2008 (2 yrs)
     img: danger-gamenet.png
-    description: "I designed and developed a customized managing software for this game-net using Delphi, similar to famous software GamePort. After a year that good words spread around it we distributed it to several other game-nets. I also developed several websites for clients.
-    "
     responsibilities:
-    - title: "Desktop: Windows Application Developer"
-      technologies: Windows XP, Delphi, TCP/IP
-    - title: "Junior Web Developer"
-      technologies: Php, Html, Css
+    - technologies: Designed and developed a gamenet <b>managing</b> / <b>accounting</b> desktop application using <b>Delphi</b>
+    - technologies: Developed two websites using <b>vanilla PHP</b>
 
 publication:
   - title:  "SDxVPN: A Software-Defined Solution for VPN Service Providers"
@@ -118,7 +105,7 @@ publication:
     date: April 2016
     img: ieee.png
     institute: IEEE/IFIP Network Operations and Management Symposium
-    description: A SDN-based VPN solution called SDxVPN which considerably lowers the complexity of management, lowers cost both in terms of management and network device, and better flexibility for controlling connections.
+    description: A SDN-based VPN solution called SDxVPN which considerably lowers the complexity of <b>management</b>, lowers cost both in terms of management and network device, and better flexibility for controlling connections.
 
   - title: Advanced Concepts in Scala - Running things before runtime
     url: https://www.linkedin.com/pulse/tech-talk-advanced-concepts-scala-nima-taheri
@@ -157,7 +144,7 @@ recommendations:
     position: Project Manager and UI/UX Designer
     img:      ali-sarshad.png
     relation: Ali directly managed Nima at Tasvir Gostar Pasargad
-    content:  We met Nima, when we were in a severe time constraint and in need of a developer who is able to re-engineer our website and mobile application. Nima is a professional and experienced software developer, who does his job with extreme care and patience. A person who can be counted on in tough circumstances.
+    content:  We met Nima when we were in a severe time constraint and in need of a developer who is able to evolve our website and mobile application. Nima is a professional and experienced software developer, who does his job with extreme care and patience. A person who can be counted on in tough circumstances.
 
   - name:     Mahdi Azadbar
     url:      https://www.linkedin.com/in/mahdi-azadbar-a71b9710b/
@@ -206,13 +193,13 @@ projects:
   - title:    National Operational Support System
     period:   Jan 2015
     content:  "In this project we developed an operational support system (OSS) for Iran's Telecommunication Infrastructure company to manage their network devices and services. In particular we focused on Provisioning MPLS VPN and VPLS services through OSS system and monitor the status and the quality of these services. We designed two libraries throughout this projects: (1) Java-Reflection Based Framework for Batch Snmp Query. (2) XML Based Multi-Vendor Engine for Configuration of Network Devices"
-    institute: Intelligent Information Solutions Center at Sharif University
+    institute: Intelligent Information Solutions Center
     img:      oss.png
 
   - title:    NPort, A GameNet Management Solution
     period:   Mar 2006
     content:  NPort was a fully-featured gamenet management solution used in several gamenets in Tehran. NPort had a client-server architecture, and was implemented using Borland Delphi and Tcp Socket.
-    institute: FreeLancer
+    institute: Danger Gamenet
     img:      nport.png
 
 honor:
