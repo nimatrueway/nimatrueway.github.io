@@ -1,11 +1,11 @@
 summary: |
-  I have been a programming enthusiast since I was <b>12 years old</b>. I started by journey by developing <b>Delphi</b> and <b>C++</b> desktop apps. Then shifted to the amazing object-oriented cross-platform <b>Java</b> when I became an <b>undergraduate</b> student. And finally functional programming and developing <b>Scala</b> is what interested me <b>+2 years ago</b> and developed it since then.
+  I have been a programming enthusiast since I was <b>12 years old</b>. I started my journey by developing <b>Delphi</b> and <b>C++</b> desktop apps. Then migrated to the amazing object-oriented cross-platform <b>Java</b> when I became an <b>undergraduate</b> student. Finally it has been <b>2 years</b> that functional programming and developing <b>Scala</b> has caught my interest.
 
-  My <b>main</b> field of specialty is well-tested scalable <font color="#e18fb2"><b>backend development</b></font> (since <font color="#e18fb2"><b>4 years ago</b></font>) but I also have a good experience with <font color="#4a90e2"><b>web frontend</b></font> and <font color="#4a90e2"><b>desktop</b></font> development, and every once in a while I code and <font color="#4a90e2"><b>assist mobile</b></font> developers too.
+  My <b>main</b> field of specialty is the development of well-tested scalable <font color="#e18fb2"><b>web backend</b></font> ( <font color="#e18fb2"><b>4 years</b></font> ) but I also have a good experience with <font color="#4a90e2"><b>web frontend</b></font> and <font color="#4a90e2"><b>desktop</b></font> development, and every once in a while I code and <font color="#4a90e2"><b>assist mobile</b></font> developers too.
 
   As you see I am not married to any role or any programming language, my <font color="#e18fb2"><b>1st priority</b></font> has always been to <font color="#e18fb2"><b>get the job done</b></font>. My <font color="#4a90e2"><b>2nd priority</b></font> is <font color="#4a90e2"><b>technical excellence</b></font>, and by that I mean the design with the <font color="#4a90e2"><b>least repetition</b></font>, and <font color="#4a90e2"><b>error</b></font>.
 
-  I have a good <b>sense of humor</b>. I love working in a <b>small</b>, <b>casual</b> and <b>friendly</b> team of <font color="#e18fb2"><b>passionate</b></font> people. Life would be absurd, if we are not passionately doing something that <b>contributes to our world</b>.
+  I have a good <b>sense of humor</b>. I love working in a <b>small</b> <b>casual</b> and <b>friendly</b> team of <font color="#e18fb2"><b>passionate</b></font> people who are doing something that <b>contributes to the world</b>.
 
 education:
   - title: Master of Software Engineering
@@ -28,23 +28,24 @@ experience:
     img: iig.png
     responsibilities:
     - technologies: Created 8 hours of <b>Scala video tutorials</b> (publicly available) and held workshops for Snapptrip.
-    - technologies: Helped the Hitt's product manager, <b>break down the requirements</b> into fine-grained designs.
-    - technologies: <b>Coordinated</b> the development team in <b>India</b>, <b>reviewed</b> all codebases, <b>tracked</b> project's progress, intervened and assisted in <b>solving problems</b>.
+    - technologies: Helped SnappHitt's product manager to <b>break down the requirements</b> into fine-grained designs.
+    - technologies: <b>Coordinated</b> the development team in <b>India</b>, <b>reviewed</b> all codebases, <b>tracked</b> project's progress, intervened and helped to <b>solve technical problems</b>.
+    - technologies: Setup <b>Ubuntu</b> server and <b>NginX</b> to serve the Rails and Java web application
     - technologies: Solved the <b>issues</b> with the encoding, streaming and playing <b>videos</b>.
     - technologies: Developed the artistic design of Hitt's home page using <b>React</b>.
-    - technologies: Designed <b>assignment</b> and <b>reviewed</b> applicants' submitted solutions for backend and mobile developer job positions
+    - technologies: Designed <b>assignment</b> and <b>reviewed</b> applicants' submitted solutions for backend and mobile job positions
 
   - title: Frontend Developer & DevOps Assistant
     institute: Tasvir Gostar Pasargad
     date: Apr 2017 – Jul 2018 (1 yr & 4 mos)
     img: pasargad.png
     responsibilities:
-    - technologies: Re-engineered the entangled <b>stylesheets</b> of the legacy website into a clean <b>BEM</b> architecture
-    - technologies: Changed the website's look according to the <b>new design</b> and implemented the <b>new features</b> by utilizing the best <b>libraries</b>
+    - technologies: Re-engineered <b>stylesheets</b> of the legacy website into a clean <b>BEM</b> architecture
+    - technologies: Changed the website's look according to the <b>new design</b> and implemented <b>new features</b> by utilizing the best off-the-shelf <b>libraries</b>
     - technologies: <b>Refactored</b> Cordova mobile application codebase to gain better <b>readability</b> and <b>modularity</b>
     - technologies: Implemented <b>new features</b> on the <b>mobile application</b> with minimal code change
-    - technologies: Enhanced <b>build automation</b> by integration new <b>grunt</b> plugins, and writing new <b>Python</b> scripts
-    - technologies: <b>Contributed</b> to Cordova open-source libraries by <b>fixing bugs</b>
+    - technologies: Enhanced <b>build automation</b> by integration new <b>grunt</b> plugins, and writing <b>Python</b> scripts
+    - technologies: <b>Contributed</b> to several Cordova open-source libraries, that I had used in the mobile application
 
 
   - title: Java Backend Architect & Mobile/Web Developer Assistant
@@ -52,20 +53,21 @@ experience:
     date: Apr 2016 – Mar 2017 (~ 1 yr)
     img: poolam.png
     responsibilities:
-      - technologies: Designed and developed the project's <b>backend</b> from the scratch according to the product manager's requirements using <b>Spring</b> framework
-      - technologies: Setup a <b>cluster</b> of nodes and distributed the load on them using <b>HAProxy</b>
+      - technologies: Designed and developed the project's <b>backend</b> from the scratch according to the requirements using <b>Java 8</b> & <b>Spring</b> framework
+      - technologies: Setup a <b>cluster</b> of <b>centOS</b> nodes and distributed the load on them using <b>HAProxy</b>
       - technologies: <b>Optimized data</b> retrieval by minimizing the roundtrips to database, optimizing SQLs, defined appropriate indices/shard on tables
       - technologies: Used <b>JOOQ</b> to create type-safe, composable SQL queries
       - technologies: Used <b>lombok</b> and <b>vavr</b> to add a more functional, concise look to Java
       - technologies: Initiated the development of iOS and web-frontend
+      - technologies: <b>Interviewed</b> applicants for backend and mobile job positions and assessed their technical skills
 
   - title: Scala Backend Developer & DevOps Assistant
     institute: Modernpal
     date: Mar 2016 – Mar 2017 (~ 1 yr 1 mo)
     img: modernpal.png
     responsibilities:
-      - technologies: Designed and developed <b>features</b> according to requirements described by product manager
-      - technologies: CPU-profiled regression tests and improved its <b>speed</b>
+      - technologies: Designed and developed <b>features</b> according to the requirements using <b>Play2</b>, <b>Slick</b> & <b>Postgres</b>
+      - technologies: CPU-profiled regression tests and improved the application's <b>performance</b>
       - technologies: Broke the backend monolith into 4 more <b>managable micro-services</b>
       - technologies: Reduced boilerplates in many places using <b>macros</b> and <b>shapeless</b>
       - technologies: Migrated complex CI bash scripts to <b>Python</b>, and setup <b>Jenkins</b> to automate the process further
@@ -77,18 +79,19 @@ experience:
     date: Jan 2015 – Dec 2015 (1 yr)
     img: iis.png
     responsibilities:
+      - technologies: Designed and developed the <b>network</b> module of a <b>OSS</b> system
       - technologies: Developed a reflection-based library to perform <b>SNMP queries</b> on network devices
-      - technologies: <b>Parallelized</b> SNMP queries which substantially boosted the speed of the module
+      - technologies: <b>Parallelized</b> SNMP queries, which substantially boosted the speed of the network module
       - technologies: Developed an <b>ansible-like engine</b> to communicate with network devices through <b>SSH</b>
-      - technologies: Intensely wrote <b>unit tests</b> for the module to achieve a high degree of stability and evolvability
+      - technologies: Intensely wrote <b>unit tests</b> for the network module to achieve a high degree of stability and evolvability
 
   - title: Java Developer (Internship)
     institute: Avan Software Technology Advisors (ASTA)
     date: Jun 2014 – Nov 2014 (6 mos)
     img: avan.png
     responsibilities:
-      - technologies: Implemented <b>new features</b> for company's <b>JSF</b>-like web framework
-      - technologies: Helped <b>migration</b> of the build stack from Ant to <b>Maven</b>
+      - technologies: Implemented <b>new features</b> for ASTA's <b>JSF</b>-like web framework
+      - technologies: Helped <b>migration</b> of the build system from Ant to <b>Maven</b>
 
   - title: Delphi Desktop Developer & Php Web Developer
     institute: Danger Gamenet
@@ -105,7 +108,7 @@ publication:
     date: April 2016
     img: ieee.png
     institute: IEEE/IFIP Network Operations and Management Symposium
-    description: A SDN-based VPN solution called SDxVPN which considerably lowers the complexity of <b>management</b>, lowers cost both in terms of management and network device, and better flexibility for controlling connections.
+    description: A SDN-based VPN solution which substantially reduces the complexity and cost of <b>management</b> and <b>network devices</b>, and also provides better <b>flexibility</b> over controlling the connections.
 
   - title: Advanced Concepts in Scala - Running things before runtime
     url: https://www.linkedin.com/pulse/tech-talk-advanced-concepts-scala-nima-taheri
@@ -113,15 +116,15 @@ publication:
     date: Jan 2017
     img: tehlug.png
     institute: 229th Meeting of Tehran GNU/Linux Group
-    description: "Covered topics were <em>scala compiler overview</em>, <em>scala compiler plugins</em>, <em>blackbox, whitebox and annotation macros</em>, <em>exploring Scala.meta</em>"
+    description: I talked briefly about scala <b>compiler</b>, how to write scala <b>compiler plugins</b>, make use of <b>blackbox</b>, <b>whitebox</b> and <b>annotation macros</b>, what is new in <b>Scalameta 3</b>.
 
   - title: Scala Quick Guide
-    url: http://engineering.pintapin.com/1396/06/30/scala-quick-guide/
+    url: https://www.youtube.com/watch?v=1ycGtnqw5b0&list=PLWurvNkeUyp4HUocRQ8XTRQ61L0gZm5WT
     type: Video Tutorial
     date: Jul 2017
     img: scalaguide.png
     institute: Snapptrip
-    description: "Video series covering most concepts, methods and popular frameworks of Scala language (Level: <b>intermediate</b> to <b>advanced</b>)"
+    description: "8 hours of video tutorials covering most concepts in Scala from <b>intermediate</b> to <b>advanced</b>"
 
 recommendations:
 
@@ -165,34 +168,37 @@ projects:
   - title:    Hitt News
     link:     "https://hitt.ir"
     period:   Aug 2017
-    content:   Hitt extracts important, credible news from various sources, summerizes in less than 60 words and delivers to every user based on their interests.
+    content:   Hitt extracts the most important, credible news from various sources, summerizes them in less than 60 words and delivers to every user based on their interests.
     institute: Iran Internet Group
     img:      hitt.png
 
   - title:    LotusPlay
     link:     "https://lotusplay.ir"
     period:   Apr 2017
-    content:  The online media streaming and video-on-demand service of Tasvir Gostar Pasargad company which is the distributor of many Iranian movies and TV series. Restyled LotusPlay website, made it responsive to mobile and tablet size, added appropriate animations to it and gave it a professional look overall. Also re-engineered its legacy cordova mobile application.
+    content:  The online media streaming and video-on-demand service of Tasvir Gostar Pasargad company which is the distributor of many Iranian movies and TV series.
+
     institute: Tasvir Gostar Pasargad
     img:      lotusplay.png
 
   - title:    HealthyPal
     link:     "http://healthypal.ir/"
     period:   Mar 2016
-    content:  Healthypal is an application implemented on mobile and web platforms for health experts to have a closer and more efficient relation with their customers. Through Healthypal, doctors and sports-trainers are able to give consultation, send out care/workout/nutrition programs, monitor patients for after-care measures, supervise trainees workouts, etc. at the moment.
+    content:  Healthypal is an application implemented for mobile and web that allows doctors, nutritionists, trainers to have a close relationship with their customers. Through Healthypal specialists give consultation, send out care/workout/nutrition programs, monitor their patients for after-care measures, supervise their physical activities, etc.
+
     institute: ModernPal
     img:      healthypal.png
 
   - title:    Poolam
     link:     "http://poolam.ir/"
     period:   Apr 2016
-    content:  Poolam is an expense management application for mobile devices. Customer signs a contract with his bank to receive Poolam e-receipt instead of plain text SMS whenever he did a transaction. Poolam then provides user with intelligent financial advices, useful statistics besides a nice view of transactions.
+    content:  Poolam is an expense management application for mobile devices. Customer signs a contract with his bank to receive Poolam e-receipt instead of plain text SMS whenever he made a transaction. Poolam then provides user with intelligent financial advices, useful statistics besides a nice view of transactions.
     institute: Poolam
     img:      poolam.png
 
   - title:    National Operational Support System
     period:   Jan 2015
-    content:  "In this project we developed an operational support system (OSS) for Iran's Telecommunication Infrastructure company to manage their network devices and services. In particular we focused on Provisioning MPLS VPN and VPLS services through OSS system and monitor the status and the quality of these services. We designed two libraries throughout this projects: (1) Java-Reflection Based Framework for Batch Snmp Query. (2) XML Based Multi-Vendor Engine for Configuration of Network Devices"
+    content:  "An OSS for Iran's Telecommunication Infrastructure company to manage their network devices and services. In particular we focused on Provisioning MPLS VPN and VPLS services through OSS system and monitor the status and the quality of these services."
+    
     institute: Intelligent Information Solutions Center
     img:      oss.png
 
