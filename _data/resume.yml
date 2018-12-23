@@ -24,20 +24,19 @@ education:
 experience:
   - title: Scala Backend Tutor & Technical Problem Solver
     institute: Iran Internet Group
-    date: Aug 2017 – Jul 2018 (~ 1 yr)
+    date: Aug 2017 – Mar 2018 (8 mos)
     img: iig.png
     responsibilities:
     - technologies: Created 8 hours of <b>Scala video tutorials</b> (publicly available) and held workshops for Snapptrip.
     - technologies: Helped SnappHitt's product manager to <b>break down the requirements</b> into fine-grained designs.
     - technologies: <b>Coordinated</b> the development team in <b>India</b>, <b>reviewed</b> all codebases, <b>tracked</b> project's progress, intervened and helped to <b>solve technical problems</b>.
-    - technologies: Setup <b>Ubuntu</b> server and <b>NginX</b> to serve the Rails and Java web application
     - technologies: Solved the <b>issues</b> with the encoding, streaming and playing <b>videos</b>.
-    - technologies: Developed the artistic design of Hitt's home page using <b>React</b>.
-    - technologies: Designed <b>assignment</b> and <b>reviewed</b> applicants' submitted solutions for backend and mobile job positions
+    - technologies: Created a fully isolated <b>test-bed</b> for writing integration tests.
+    - technologies: Initiated defining <b>organization-level standards</b> for all teams.
 
-  - title: Frontend Developer & DevOps Assistant
+  - title: Senior Frontend Developer & DevOps Assistant
     institute: Tasvir Gostar Pasargad
-    date: Apr 2017 – Jul 2018 (1 yr & 4 mos)
+    date: Apr 2017 – Nov 2018 (8 mos)
     img: pasargad.png
     responsibilities:
     - technologies: Re-engineered <b>stylesheets</b> of the legacy website into a clean <b>BEM</b> architecture
@@ -49,9 +48,9 @@ experience:
 
 
   - title: Java Backend Architect & Mobile/Web Developer Assistant
-    institute: Poolam
+    institute: Teska
     date: Apr 2016 – Mar 2017 (~ 1 yr)
-    img: poolam.png
+    img: teska.png
     responsibilities:
       - technologies: Designed and developed the project's <b>backend</b> from the scratch according to the requirements using <b>Java 8</b> & <b>Spring</b> framework
       - technologies: Setup a <b>cluster</b> of <b>centOS</b> nodes and distributed the load on them using <b>HAProxy</b>
@@ -84,22 +83,6 @@ experience:
       - technologies: <b>Parallelized</b> SNMP queries, which substantially boosted the speed of the network module
       - technologies: Developed an <b>ansible-like engine</b> to communicate with network devices through <b>SSH</b>
       - technologies: Intensely wrote <b>unit tests</b> for the network module to achieve a high degree of stability and evolvability
-
-  - title: Java Developer (Internship)
-    institute: Avan Software Technology Advisors (ASTA)
-    date: Jun 2014 – Nov 2014 (6 mos)
-    img: avan.png
-    responsibilities:
-      - technologies: Implemented <b>new features</b> for ASTA's <b>JSF</b>-like web framework
-      - technologies: Helped <b>migration</b> of the build system from Ant to <b>Maven</b>
-
-  - title: Delphi Desktop Developer & Php Web Developer
-    institute: Danger Gamenet
-    date: Mar 2006 – Feb 2008 (2 yrs)
-    img: danger-gamenet.png
-    responsibilities:
-    - technologies: Designed and developed a gamenet <b>managing</b> / <b>accounting</b> desktop application using <b>Delphi</b>
-    - technologies: Developed two websites using <b>vanilla PHP</b>
 
 publication:
   - title:  "SDxVPN: A Software-Defined Solution for VPN Service Providers"
